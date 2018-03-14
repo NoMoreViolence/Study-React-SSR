@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, About, Posts } from 'pages';
+import { Home, About, Posts } from 'pages/index.async.js';
 import Menu from 'components/Menu';
 
 // 나중에 어떤 주소로 왔을때 어디로 향하게 할 지 여기서 정의함
